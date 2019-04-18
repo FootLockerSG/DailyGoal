@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read up on materials before class"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did I achieve this goal today?" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rd1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButton_1a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Yes"
+                        tools:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_1b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        tools:text="No" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arrive on time so as not to miss important part of the lesson"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Did I acheive this goal today?" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rd2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButton_2a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Yes"
+                        tools:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_2b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No"
+                        tools:text="No" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Attempt the problem myself"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Did I achieve this goal today?" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rd3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButton_3a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Yes"
+                        tools:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_3b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No"
+                        tools:text="No" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My personal reflection today"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
